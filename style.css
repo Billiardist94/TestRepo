@@ -1,0 +1,44 @@
+.section{
+
+}
+
+.img_box{
+    position: relative;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #232323;
+    font-weight: 600;
+    position: absolute;
+    right: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+
+.number{
+    font-size: 16px;
+}
+
+.years{
+    font-size: 14px;
+}
+
+.medal{
+    width: 100px;
+}
+
+.list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.item{
+    padding: 5px 10px;
+    text-decoration: underline;
+}
